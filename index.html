@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="styles.css">
+
+      <title>Responsive game website</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               ProGame
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#popular" class="nav__link">Popular</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#explore" class="nav__link">Explore</a>
+                  </li>
+               </ul>
+
+               <!--close button-->
+               <div class="nav__close" id="nav__close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+            <!----toggle button----->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <img src="https://victoria.mediaplanet.com/app/uploads/sites/45/2023/09/GettyImages-1485025696-888x500.jpg" alt="home image" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h3 class="home__subtitle">
+                     Play Coding Games, Have Fun, Build Skills.
+                  </h3>
+
+                  <h1 class="home__title">
+                     Explore Games <br>
+                  </h1>
+
+                  <p class="home__description">
+                    Level up your coding with games, puzzles, and challenges.
+                  </p>
+
+                  <a href="#" class="button">
+                     start exploring the games <i class="ri-arrow-right-fill"></i>
+                  </a>
+               </div>
+
+               <div class="home__cards grid">
+                  <article class="home__card">
+                     <img src="https://raw.githubusercontent.com/billfienberg/grid-garden/master/gifs/25_of_28.gif" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://cssgridgarden.com/">Css Garden</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="https://raw.githubusercontent.com/vixhnuchandran/flexbox-zombies/main/gifs/c24.gif" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://mastery.games/flexboxzombies/">Flexbox Zombies</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="https://i0.wp.com/images.shejidaren.com/wp-content/uploads/2014/03/css-diner-b.gif" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://flukeout.github.io/">Css Dinner</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="https://codecombat.com/images/pages/parents/power_of_play_capstone.gif" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://codecombat.com/">Code Combat</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="https://miro.medium.com/v2/resize:fit:2000/1*UGNcALmf-yvKcdVcvUhkhw.gif" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://checkio.org/">Checkio</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                   <article class="home__card">
+                     <img src="https://afknapping.de/try-out-all-the-things/images/elevatorsaga.gif" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://play.elevatorsaga.com/">Elevator Saga</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="https://i.ytimg.com/vi/w8DSLB8Wa2o/maxresdefault.jpg" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://mystery.knightlab.com/">SQL Murder Mystery</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                  <article class="home__card">
+                     <img src="https://infolab.cs.uni-saarland.de/wp-content/uploads/2020/04/codingame.gif" alt="grid css" class="home__card-img">
+                     <h3 class="home__card-title"><a href="https://www.codingame.com/start/">Codingame</a></h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+
+                     
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">
+                     websites where you can play games - and learn coding <br>
+                  </h2>
+
+                  <p class="about__description">
+                     In this website we collect so many games. just click the link and play the games you want. In this website there are so many games related to every topic and so many languages such as HTML,CSS,javascript,Typescript,python,PHP,SQL and many more.
+                  </p>
+
+                  <a href="#" class="button"> <i class="ri-arrow-right-fill"></i>
+                     Click the link
+                  </a>
+               </div>
+
+               <div class="about__image">
+                  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/22b22287602523.5dbd29081561d.gif" alt="about image" class="about__img">
+                  <div class="about__shadow"></div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== POPULAR ====================-->
+         <section class="popular section" id="popular">
+            <h2 class="section__title">
+              Popular Games<br>
+            </h2>
+
+            <div class="popular__container container grid">
+               <article class="popular__card">
+                  <div class="popular__image">
+                     <img src="https://miro.medium.com/v2/resize:fit:1400/1*pPFDKp2bzCKOYa-79GExYA.gif" alt="game img" class="popular__img">
+                     <div class="popular__shadow"></div>
+                  </div>
+
+                  <h2 class="popular__title"><a href="https://github.com/ryanb/ruby-warrior">
+                     Ruby warrior Game
+                  </a></h2>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__image">
+                     <img src="https://blog.screeps.com/2017/04/world-review/Rajecz_vs_zuphrany.gif" alt="game img" class="popular__img">
+                     <div class="popular__shadow"></div>
+                  </div>
+
+                  <h2 class="popular__title"><a href="https://screeps.com/">
+                    Screeps Game
+                  </a></h2>
+               </article>
+
+               <article class="popular__card">
+                  <div class="popular__image">
+                     <img src="https://blueinnotechnology.com/wp-content/uploads/2022/02/blueinno-scratch-beginners-course-outcome.gif" alt="game img" class="popular__img">
+                     <div class="popular__shadow"></div>
+                  </div>
+
+                  <h2 class="popular__title"><a href="https://scratch.mit.edu/search/projects?q=game">
+                    Scratch Game
+                  </a></h2>
+               </article>
+            </div>
+         </section>
+         
+         <!--==================== EXPLORE ====================-->
+         <section class="explore section" id="explore">
+            <div class="explore__container">
+               <div class="explore__image">
+                  <img src="https://www.filepicker.io/api/file/j1HkZR34TdOr570F65J7" alt="explore" class="explore__img">
+                  <div class="explore__shadow"></div>
+               </div>
+
+               <div class="explore__content container grid">
+                  <div class="explore__data">
+                     <h2 class="section__title">
+                        explore the <br>
+                        best games
+                     </h2>
+
+                     <p class="explore__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam, repellendus exercitationem consequatur reprehenderit atque, veritatis fugiat ipsum laborum repellat omnis a facere ut quidem fuga adipisci vel harum mollitia.
+                     </p>
+                  </div>
+
+                  <div class="explore__user">
+                     <img src="https://www.filepicker.io/api/file/j1HkZR34TdOr570F65J7" alt="" class="explore__perfil">
+                   
+                  </div>
+               </div>
+            </div>
+         </section>
+         
+         <!--==================== JOIN ====================-->
+         <section class="join section">
+            
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <div>
+                  <a href="#" class="footer__logo">ProGame</a>
+
+                  <p class="footer__description">
+                     In this website we collect so many games.<br>
+                     just click the link and play the games you want.<br>
+                     In this website there are so many games related <br>
+                     to every topic and so many languages such <br>
+                     as HTML,CSS,javascript,Typescript,python,<br>
+                     PHP,SQL and many more.<br>
+                  </p>
+               </div>
+
+               <div class="footer__data grid">
+                  <div>
+                     <h3 class="footer__title">about</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">about us</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">features</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">news and blogs</a>
+                        </li>
+
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">company</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">FQDs</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">History</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">yestimonials</a>
+                        </li>
+                        
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">Contact</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">call center</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">support center</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">contact us</a>
+                        </li>
+                        
+                     </ul>
+                  </div>
+
+                  <div>
+                     <h3 class="footer__title">support</h3>
+
+                     <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__link">privacy policy</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">terms and services</a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="footer__link">payments</a>
+                        </li>
+                        
+                     </ul>
+                  </div>
+                  
+               </div>
+            </div>
+
+            <div class="footer__group">
+              <div class="footer__social">
+               <a href="#" target="_blank" class="footer__social-link">
+                  <i class="ri-facebook-fill"></i>
+               </a>
+
+               <a href="#" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-fill"></i>
+               </a>
+
+               <a href="#" target="_blank" class="footer__social-link">
+                  <i class="ri-twitter-fill"></i>
+               </a>
+
+               <a href="#" target="_blank" class="footer__social-link">
+                  <i class="ri-youtube-fill"></i>
+               </a>
+
+              </div>
+
+              <span class="footer__copy">
+               Copyright neelam.All rights reserved
+              </span>
+            </div>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+   </body>
+</html>
+
